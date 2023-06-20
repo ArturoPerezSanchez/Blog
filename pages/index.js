@@ -5,7 +5,7 @@ import matter from 'gray-matter'
 import { NextSeo } from 'next-seo';
 import Post from '../components/Post'
 import Banner from "../components/Banner";
-import Sidebar from "../components/Sidebar"
+import Topbar from "../components/Topbar"
 import { sortByDate, slugify,ImageUrl} from '../utils'
 
 export default function Home({ posts }) {
@@ -34,6 +34,7 @@ export default function Home({ posts }) {
       />
         <Banner /> 
       <div className="container">
+      <Topbar />
         <div className="row">
 
           <div className="col-lg-8">
@@ -45,7 +46,7 @@ export default function Home({ posts }) {
 
           </div>
 
-          <Sidebar />
+
           
         </div>
       </div>

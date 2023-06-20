@@ -15,19 +15,32 @@ a {
   box-sizing: border-box;
 }
 
-p img{
+p img {
   width:750px;
   margin: 5px auto;
 }
-pre{
+pre {
   background-color: rgba(0, 0, 0, 0.548);
   width: 760px;
   padding: 6px 18px;
 }
-code{
+code {
   width: 100%;
   color: white;
   scroll-behavior: smooth;
   overflow-x: scroll;
-  
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.tag-item {
+  border: 1px dotted yellow;
+  border-radius: 15px;
+  color: white;
+  padding: .25em 1em .25em 1em;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
