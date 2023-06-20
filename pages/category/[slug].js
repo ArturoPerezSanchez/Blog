@@ -13,12 +13,12 @@ export default function Category({ posts }) {
   return (
     <>
      <NextSeo
-     title= 'Access your category realted articles'
-     description= 'Access your category realted articles'
+     title= 'Access your category related articles'
+     description= 'Access your category related articles'
         openGraph={{
           url: 'https://arturops.com',
-          title: 'Access your category realted articles',
-          description: 'Access your category realted articles',
+          title: 'Access your category related articles',
+          description: 'Access your category related articles',
 
           images: [
             {

@@ -7,18 +7,15 @@ import { NextSeo } from 'next-seo';
 
 export default function tag({ posts }) {
 
-
-
-
   return (
     <>
    <NextSeo
-     title= 'Access your tag realted articles'
-     description= 'Access your tag realted articles'
+     title= 'Access your tag related articles'
+     description= 'Access your tag related articles'
         openGraph={{
           url: 'https://arturops.com',
-          title: 'Access your tag realted articles',
-          description: 'Access your tag realted articles',
+          title: 'Access your tag related articles',
+          description: 'Access your tag related articles',
 
           images: [
             {
