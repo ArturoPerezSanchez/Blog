@@ -28,19 +28,19 @@ export default function PostPage({ content, frontmatter }) {
         title={frontmatter.title} 
         description={frontmatter.summary}
         openGraph={{
-          url: 'https:officialrajdeepsingh.dev',
+          url: 'https:arturops.com',
           title: frontmatter.title,
           description: frontmatter.summary ,
           type: 'article',
           article: {
             publishedTime: frontmatter.date,
             authors: [
-              'https://officialrajdeepsingh.dev/pages/about',
+              'https:arturops.com',
             ],
             tags: frontmatter.tags,
           },
           images: imageMeta,
-          site_name: 'Rajdeep Singh',
+          site_name: 'Arturo Perez',
         }}      
       />
       <div className="container my-5">

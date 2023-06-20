@@ -1,5 +1,5 @@
 ---
-author : "Rajdeep Singh"
+author : "Arturo Perez"
 categories : ["html", "html 5", "html tutorial", "Text Highlighting", "text highlighting in html", "html for beginner"]
 date : "2020-12-28T14:09:38Z"
 description : "Mark tag Help to High Lighting text in HTML 5"

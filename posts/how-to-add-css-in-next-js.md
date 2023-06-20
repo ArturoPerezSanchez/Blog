@@ -1,5 +1,5 @@
 ---
-author : "Rajdeep Singh"
+author : "Arturo Perez"
 categories : ["Next.js", "Next", "Next.js Framework", "Next.js Tutorial", "React.js", "react.js tutorial"]
 date : "2020-11-10T11:42:46Z"
 description : "Easy Ways Add CSS in Next.js #SeriesPart2"
@@ -20,7 +20,7 @@ Good News is that Next.js provides custom CSS functionality. You Use The next.js
 
 Make sure Read Basic Introduction About Next.js #SeriesStart 💕
 
-[https://officialrajdeepsingh.dev/what-is-next.js/](https://officialrajdeepsingh.dev/what-is-next.js/ "https://officialrajdeepsingh.dev/what-is-next.js/")
+[https://arturops.com/what-is-next.js/](https://arturops.com/what-is-next.js/ "https://arturops.com/what-is-next.js/")
 
 ***
 

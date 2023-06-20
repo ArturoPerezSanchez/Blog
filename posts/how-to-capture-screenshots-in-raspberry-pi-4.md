@@ -1,5 +1,5 @@
 ---
-author : "Rajdeep Singh"
+author : "Arturo Perez"
 categories : ["Raspberry", "Raspi 4", "screensshots", "capture screen shots", "Gnome Screenshot", "install gnome screenshot"]
 date : "2021-01-24T12:26:07Z"
 description : "Raspi does not provide screenshots functionality by default. you use software and tool to take a screenshot in raspi."

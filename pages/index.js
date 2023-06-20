@@ -17,7 +17,7 @@ export default function Home({ posts }) {
         title="Welcome to my blog home page"
         description="Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support"
         openGraph={{
-          url: 'http://officialrajdeepsingh.dev',
+          url: 'https://www.arturops.com/',
           title: 'Welcome to my blog home page',
           description: 'Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support',
           images: [
@@ -29,7 +29,7 @@ export default function Home({ posts }) {
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Rajdeep Singh',
+          site_name: 'Arturo Perez',
         }}      
       />
         <Banner /> 

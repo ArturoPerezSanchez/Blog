@@ -1,5 +1,5 @@
 ---
-author : "Rajdeep Singh"
+author : "Arturo Perez"
 categories : ["Next.js", "Next.js Tutorial", "React.js", "React.js Framework", "javascript Framework", "Next", "Next.js Framework"]
 date : "2020-11-08T13:10:48Z"
 description : "Basic Introduction About Next.js #SeriesStart"

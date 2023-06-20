@@ -1,5 +1,5 @@
 ---
-author : "Rajdeep Singh"
+author : "Arturo Perez"
 categories : ["Npm"]
 date : "2022-04-18T11:00:00Z"
 description : "Npm outdate command help to find old packages in your current project."

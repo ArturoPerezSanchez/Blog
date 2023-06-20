@@ -35,7 +35,7 @@ export default function Search() {
         title="Search the page"
         description="Find the search result page"
         openGraph={{
-          url: 'http://officialrajdeepsingh.dev',
+          url: 'https://www.arturops.com/',
           title: 'Search the page',
           description: 'Find the search result page',
           images: [
@@ -47,7 +47,7 @@ export default function Search() {
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Rajdeep Singh',
+          site_name: 'Arturo Perez',
         }}      
       />
             <Banner />

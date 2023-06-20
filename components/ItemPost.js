@@ -1,13 +1,7 @@
 import Link from 'next/link'
-
 import { ImageUrl } from "../utils";
 
 export default function ItemPost({ post: {post } }) {
-   
-  // const imageUrl= process.env.SITE_URL + post.images[0]
- 
-
-  // console.log(imageUrl,' imageUrl ')
 
   const date = new Date(post.date)
 

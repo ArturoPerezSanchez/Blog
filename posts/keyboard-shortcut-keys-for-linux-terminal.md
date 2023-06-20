@@ -1,5 +1,5 @@
 ---
-author : "Rajdeep Singh"
+author : "Arturo Perez"
 categories : ["Linux", "Keyboard Shortcut", "Shortcut keys", "Linux Terminal"]
 date : "2021-01-08T08:05:57Z"
 description : "Linux Keyboard Help To Enhance Your Working Speed Inside Command Tool"

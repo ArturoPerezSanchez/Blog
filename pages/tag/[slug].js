@@ -1,8 +1,6 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { marked } from 'marked'
-import Link from 'next/link'
 import ItemPost from '../../components/ItemPost'
 import { slugify, ImageUrl } from '../../utils'
 import { NextSeo } from 'next-seo';
@@ -18,7 +16,7 @@ export default function tag({ posts }) {
      title= 'Access your tag realted articles'
      description= 'Access your tag realted articles'
         openGraph={{
-          url: 'https://officialrajdeepsingh.dev',
+          url: 'https://arturops.com',
           title: 'Access your tag realted articles',
           description: 'Access your tag realted articles',
 
@@ -31,7 +29,7 @@ export default function tag({ posts }) {
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Rajdeep Singh',
+          site_name: 'Arturo Perez',
         }}
       />
 

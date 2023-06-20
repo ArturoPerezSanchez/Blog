@@ -16,7 +16,7 @@ export default function Category({ posts }) {
      title= 'Access your category realted articles'
      description= 'Access your category realted articles'
         openGraph={{
-          url: 'https://officialrajdeepsingh.dev',
+          url: 'https://arturops.com',
           title: 'Access your category realted articles',
           description: 'Access your category realted articles',
 
@@ -29,7 +29,7 @@ export default function Category({ posts }) {
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Rajdeep Singh',
+          site_name: 'Arturo Perez',
         }}
       />
 

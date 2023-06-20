@@ -1,5 +1,5 @@
 ---
-author : "Rajdeep Singh"
+author : "Arturo Perez"
 categories : ["Raspberry pi 4", "snapcraft", "Snap store", "Linux", "Binary"]
 date : "2022-03-26T07:50:39Z"
 description : "You can easily check the raspberry pi binary in the snap store without the command line and code."
