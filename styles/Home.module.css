@@ -9,6 +9,11 @@
   padding: 0 2rem;
 }
 
+.bg-secondary {
+  background: #282828;
+}
+
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;

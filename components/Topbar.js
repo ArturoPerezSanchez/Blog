@@ -11,7 +11,7 @@ export default function Topbar() {
   }
  
   return (
-    <div className="col-lg-16">
+    <div className="col-lg-16 bg-secondary">
 
       <div className="card mb-16">
         <div className="card-header">Search</div>
