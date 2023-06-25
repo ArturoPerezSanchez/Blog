@@ -14,12 +14,12 @@ export default function Home({ posts }) {
   return (
     <div>
       <NextSeo
-        title="Welcome to my blog home page"
-        description="Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support"
+        title="Welcome to The Geek Gazette"
+        description="Explore the fascinating world of computer science, software engineering, AI, math curiosities, and science in general. Gain insights into cutting-edge technologies, discover coding techniques, and unravel the mysteries of algorithms. Join me on a journey of exploration, learning, and personal experiences as we delve into the realms of technology and beyond."
         openGraph={{
-          url: 'https://www.arturops.com/',
-          title: 'Welcome to my blog home page',
-          description: 'Build nextjs blog website with Markdown, sitemap, serachbar, category, tag and SEO support',
+          url: 'https://www.blog.arturops.com/',
+          title: 'Welcome to The Geek Gazette',
+          description: 'Explore the fascinating world of computer science, software engineering, AI, math curiosities, and science in general. Gain insights into cutting-edge technologies, discover coding techniques, and unravel the mysteries of algorithms. Join me on a journey of exploration, learning, and personal experiences as we delve into the realms of technology and beyond.',
           images: [
             {
               url: `${ImageUrl('banner.png')}`,
@@ -29,7 +29,7 @@ export default function Home({ posts }) {
               type: 'image/jpeg',
             },
           ],
-          site_name: 'Arturo Perez',
+          site_name: 'The Geek Gazette',
         }}      
       />
         <Banner /> 

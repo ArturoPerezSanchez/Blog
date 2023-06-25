@@ -6,7 +6,7 @@ export default function Header() {
             <div className="container">
                 <Link href="/">
                     <a className='navbar-brand'>
-                        Markdown + Nextjs
+                        The Geek Gazette
                     </a>
                 </Link>
 
@@ -18,8 +18,8 @@ export default function Header() {
                                 <li className="nav-item"> Home </li>
                             </a>
                         </Link>
-                        <Link href="/">
-                            <a className='nav-link'>
+                        <Link href="https://www.arturops.com">
+                            <a className='nav-link' target="_blank">
                                 <li className="nav-item">About </li>
                             </a>
                         </Link>
