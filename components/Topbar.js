@@ -11,25 +11,21 @@ export default function Topbar() {
   }
  
   return (
-    <div className="col-lg-16 bg-secondary">
+    <div className="col-lg-16 head-container">
 
-      <div className="card mb-16">
-        <div className="card-header">Search</div>
-        <div className="card-body">
-          <div className="input-group">
-            <input onChange={findSerach} className="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
+        <h4 className="search-head secondary-background mb-0">Search</h4>
+        <div className="card-body tertiary-background">
+          <div className="search-container">
+            <input onChange={findSerach} className="search-form light-background" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
             <Link href={{ pathname: '/Search', query: { q: search?.toLowerCase() } }}> 
-              <a className="btn btn-primary" id="button-search">Go!</a>
+              <a className="btn btn-primary go-btn" id="button-search">Go!</a>
             </Link>
           </div>
         </div>
-      </div>
       <br/>
-      <div className="card mb-16">
-        <div className="card-header">Categories</div>
-        <div className="card-body">
-          <div className="row">
-            <div className="col-sm-10">
+      <h4 className="search-head secondary-background mb-0">Categories</h4>
+        <div className="card-body tertiary-background">
+          <div className="tag-container">
               <div className="mb-0 tag-list">
                
                 {
@@ -38,7 +34,6 @@ export default function Topbar() {
                       return post.frontmatter.categories.map(
                       item => {
                         const slug = slugify(item)
-                        console.log(slug)
                         return <div className="tag-item" key={item}>
                           <a href={`/category/${slug}`}> {item} </a>
                           </div>
@@ -49,11 +44,8 @@ export default function Topbar() {
                   )
                 }
               </div>
-            </div>
-           
           </div>
         </div>
       </div>
-    </div>
   )
 }

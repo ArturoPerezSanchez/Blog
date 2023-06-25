@@ -45,3 +45,64 @@ code {
   padding: .25em 1em .25em 1em;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
+.secondary-background {
+  background: #282828;
+}
+
+.tertiary-background {
+  background: #3e3e3e;
+}
+
+.light-background {
+  background: #656565;
+}
+
+.search-head {
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.search-form {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  background-clip: padding-box;
+  border: 0px solid #ced4da;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.go-btn {
+  width: 5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.search-form::placeholder {
+  color: #fff5;
+}
+
+.search-form:focus{
+  outline: none;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.head-container {
+  margin-bottom: 4rem;
+}
+
+.tag-container {
+  width: 100%;
+  max-height: 8.5rem;
+  overflow: hidden;
+  margin: 0px;
+}
