@@ -159,7 +159,27 @@ code {
 
 .tag-container {
   width: 100%;
-  max-height: 8.5rem;
   overflow: hidden;
   margin: 0px;
+  transition: max-height 0.5s ease;
+  height: 100%;
+}
+
+.tag-container.expanded {
+  max-height: 100%;
+}
+
+.toggle-height-btn {
+  display: block;
+  margin-top: 1rem;
+}
+
+.expand-button {
+  width: 100%;
+  background: transparent;
+  border: 0px;
+  color: white;
+  font-weight: 300;
+  padding: 15px;
+  font-size: 16px;
 }
