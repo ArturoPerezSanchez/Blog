@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
@@ -31,12 +32,12 @@ export default function Header() {
       <nav
         className="navbar navbar-expand-lg navbar-dark bg-dark fix navbar-transition"
         style={{
-          transform: visible ? 'translateY(0)' : 'translateY(-100%)',
+            transform: visible ? 'translateY(0)' : 'translateY(-100%)',
         }}
       >
         <div className="container">
           <Link href="/">
-            <a className="navbar-brand">The Geek Gazette</a>
+            <a className="navbar-header" style={{color: "#dec48b"}}>The Geek Gazette</a>
           </Link>
 
           <button

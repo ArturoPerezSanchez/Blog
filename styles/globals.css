@@ -92,7 +92,7 @@ code {
 
 .mobile-bar {
     position: absolute;
-    top: 56px;
+    top: 55px;
     z-index: 6;
     width: 100vw;
     border-top: 1px dashed black;
@@ -143,6 +143,18 @@ code {
 
 .head-container {
   margin-bottom: 4rem;
+}
+
+.navbar-header {
+    font-size: 26px;
+    margin-bottom: 0;
+    background: -webkit-linear-gradient(45deg, #fff, #dec48b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    font-weight: 600;
 }
 
 .tag-container {
