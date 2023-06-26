@@ -1,16 +1,39 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const visible = prevScrollPos > currentScrollPos;
+
+      setPrevScrollPos(currentScrollPos);
+      setVisible(visible);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav
+        className="navbar navbar-expand-lg navbar-dark bg-dark fix navbar-transition"
+        style={{
+          transform: visible ? 'translateY(0)' : 'translateY(-100%)',
+        }}
+      >
         <div className="container">
           <Link href="/">
             <a className="navbar-brand">The Geek Gazette</a>
@@ -25,7 +48,7 @@ export default function Header() {
           </button>
 
           <div
-            className={` ${
+            className={`${
               isMobileMenuOpen ? 'collapse navbar-collapse' : 'mobile-bar bg-dark'
             }`}
           >
