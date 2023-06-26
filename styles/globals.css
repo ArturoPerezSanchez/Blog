@@ -183,3 +183,22 @@ code {
   padding: 15px;
   font-size: 16px;
 }
+
+.banner-dimensions {
+  background-size: 100vw 350px;
+  width:100vw;
+  height:350px;
+
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .banner-dimensions {
+    background-size: 100vw 150px;
+    width:100vw;
+    height:150px;
+  }
+}
