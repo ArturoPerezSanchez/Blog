@@ -7,6 +7,24 @@ body {
     background: #1a1a1a;
 }
 
+
+html::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: transparent;
+}
+
+html::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	background-color: #333;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -61,6 +79,24 @@ code {
 .search-head {
   padding: 0.5rem 1rem;
   color: white;
+}
+
+.mobile-bar {
+    position: absolute;
+    top: 56px;
+    z-index: 6;
+    width: 100vw;
+    border-top: 1px dashed black;
+    left: 0;
+}
+
+.mobile-bar ul a li {
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.mobile-bar ul a:hover{
+  background: #3e3e3e;
 }
 
 .search-form {

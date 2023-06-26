@@ -1,32 +1,49 @@
-import Link from 'next/link'
+import { useState } from 'react';
+import Link from 'next/link';
+
 export default function Header() {
-    return (<>
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
 
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="container">
-                <Link href="/">
-                    <a className='navbar-brand'>
-                        The Geek Gazette
-                    </a>
-                </Link>
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <Link href="/">
-                            <a className='nav-link'>
-                                <li className="nav-item"> Home </li>
-                            </a>
-                        </Link>
-                        <Link href="https://www.arturops.com">
-                            <a className='nav-link' target="_blank">
-                                <li className="nav-item">About </li>
-                            </a>
-                        </Link>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  return (
+    <>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container">
+          <Link href="/">
+            <a className="navbar-brand">The Geek Gazette</a>
+          </Link>
+
+          <button
+            className="navbar-toggler"
+            type="button"
+            onClick={handleMobileMenuToggle}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            className={` ${
+              isMobileMenuOpen ? 'collapse navbar-collapse' : 'mobile-bar bg-dark'
+            }`}
+          >
+            <ul className="navbar-nav ms-auto mb-lg-0">
+              <Link href="/">
+                <a className="nav-link">
+                  <li className="nav-item">Home</li>
+                </a>
+              </Link>
+              <Link href="https://www.arturops.com">
+                <a className="nav-link" target="_blank">
+                  <li className="nav-item">About</li>
+                </a>
+              </Link>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </>
-    )
+  );
 }
