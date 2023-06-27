@@ -13,13 +13,13 @@ export default function Home({ initialPosts }) {
   const [allPosts, setAllPosts] = useState(initialPosts);
 
   const handleLoadMore = () => {
-    setDisplayedPosts(prevCount => prevCount + 3); // Increase the count to load more posts
+    setDisplayedPosts(prevCount => prevCount + 3); 
   };
 
   useEffect(() => {
     const handleScroll = () => {
       if (
-        window.innerHeight + window.scrollY >= document.body.offsetHeight &&
+        window.innerHeight + window.scrollY >= document.body.offsetHeight - 100 &&
         displayedPosts < allPosts.length
       ) {
         handleLoadMore();
