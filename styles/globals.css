@@ -55,11 +55,21 @@ code {
 }
 
 .tag-item {
-  border: 1px dotted yellow;
   border-radius: 15px;
   color: white;
+  font-size: 1rem;
   padding: .25em 1em .25em 1em;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  opacity: .75;
+  cursor: pointer;
+}
+
+.tag-item:hover {
+  opacity: 1; 
+}
+
+.tag-item a:hover {
+  color: inherit;
 }
 
 .fix {
