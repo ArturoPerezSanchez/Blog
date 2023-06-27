@@ -184,20 +184,14 @@ code {
 }
 
 .banner-dimensions {
-  background-size: 100vw 350px;
+  background-size: 100vw calc(100vw *0.265);
   width:100vw;
-  height:350px;
-
+  height: calc(100vw *0.265);
 }
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-  .banner-dimensions {
-    background-size: 100vw 150px;
-    width:100vw;
-    height:150px;
   }
 }
