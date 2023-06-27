@@ -174,7 +174,9 @@ code {
 }
 
 .expand-button {
-  width: 100%;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
   background: transparent;
   border: 0px;
   color: white;
