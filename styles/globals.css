@@ -64,6 +64,23 @@ code {
   cursor: pointer;
 }
 
+.title-shadow {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.banner-title {
+  width: 100%;
+  text-align: center;
+  font-size: 6vw;
+  padding-top: 15px;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 .tag-item:hover {
   opacity: 1; 
 }
@@ -92,11 +109,6 @@ code {
 
 .light-background {
   background: #656565;
-}
-
-.search-head {
-  padding: 0.5rem 1rem;
-  color: white;
 }
 
 .mobile-bar {
@@ -131,8 +143,44 @@ code {
 }
 
 .go-btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   width: 5rem;
   border-radius: 0 0.5rem 0.5rem 0;
+  background: #DC9B20;
+  color: white;
+}
+
+.go-btn:focus {
+  width: 5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  background: #DC9B20;
+  color: white;
+}
+
+.go-btn:hover {
+  background: #CC8B10;
+  color:white;
+  
+}
+
+.go-btn:active {
+  background: #BC7B00;
+  color:white;
+  box-shadow: None;
 }
 
 .search-form::placeholder {
@@ -157,13 +205,12 @@ code {
 .navbar-header {
     font-size: 26px;
     margin-bottom: 0;
-    background: -webkit-linear-gradient(45deg, #fff, #dec48b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
     font-weight: 600;
+    display: flex;
+    gap: 5px;
 }
 
 .tag-container {
@@ -196,7 +243,30 @@ code {
   margin-bottom: 10px;
   font-size: 16px;
   border-radius: 2px;
+}
 
+.expand-button:hover {
+  background: #28282890;
+}
+
+.expand-button:active {
+  background: #282828;
+}
+
+.card-head{
+  border-radius: 5px 5px 0 0;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+.card-body{
+  border-radius: 0 0 5px 5px;
+}
+
+.transparent-effect {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#282828 0%,transparent 15%, transparent 85%, #1a1a1a)
 }
 
 .banner-dimensions {

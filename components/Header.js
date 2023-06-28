@@ -37,7 +37,9 @@ export default function Header() {
       >
         <div className="container">
           <Link href="/">
-            <a className="navbar-header" style={{color: "#dec48b"}}>The Geek Gazette</a>
+            <a className="navbar-header">
+              <span style={{color: "white"}}>The</span> <span style={{color: "#A9A8A7"}}>Geek</span><span style={{color: "#DC9B20"}}>Gazette</span>
+              </a>
           </Link>
 
           <button

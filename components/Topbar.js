@@ -19,7 +19,7 @@ export default function Topbar() {
 
   return (
     <div className="col-lg-16 head-container">
-      <h4 className="search-head secondary-background mb-0">Search</h4>
+      <h4 className="card-head secondary-background mb-0">Search</h4>
       <div className="card-body tertiary-background">
         <div className="search-container">
           <input
@@ -31,12 +31,12 @@ export default function Topbar() {
             aria-describedby="button-search"
           />
           <Link href={{ pathname: '/Search', query: { q: search?.toLowerCase() } }}>
-            <a className="btn btn-primary go-btn" id="button-search">Go!</a>
+            <a className="go-btn" id="button-search">Go!</a>
           </Link>
         </div>
       </div>
       <br />
-      <h4 className="search-head secondary-background mb-0">Categories</h4>
+      <h4 className="card-head secondary-background mb-0">Categories</h4>
       <div className="card-body tertiary-background pb-0">
         <div className="tag-container" style={{maxHeight: expanded ? '100rem' : '8.5rem'}}>
           <div className="mb-0 tag-list">
