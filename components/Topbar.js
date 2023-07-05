@@ -38,7 +38,7 @@ export default function Topbar() {
       <br />
       <h4 className="card-head secondary-background mb-0">Categories</h4>
       <div className="card-body tertiary-background pb-0">
-        <div className="tag-container" style={{maxHeight: expanded ? '100rem' : '8.5rem'}}>
+        <div className="tag-container" style={{maxHeight: expanded ? '100rem' : '8.6rem'}}>
           <div className="mb-0 tag-list">
             {uniqueCategories.map(item => {
               const slug = slugify(item);
