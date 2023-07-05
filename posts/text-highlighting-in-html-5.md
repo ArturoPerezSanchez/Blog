@@ -4,8 +4,8 @@ categories : ["html", "html 5", "html tutorial", "Text Highlighting", "text high
 date : "2020-12-28T14:09:38Z"
 description : "Mark tag Help to High Lighting text in HTML 5"
 draft : false
-image : "images/Text-Highlighting-In-HTML-5.png"
-images : ["images/Text-Highlighting-In-HTML-5.png"]
+image : "https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_dmitriy_kuzin_01_3440x1440.jpg&height=506&sharpen"
+images : ["https://www.cgwallpapers.com/img_script/wallpaper_dir/img.php?src=wallpaper_dmitriy_kuzin_01_3440x1440.jpg&height=506&sharpen"]
 slug : "text-highlighting-in-html-5"
 summary : "Mark tag Help to High Lighting text in HTML 5 "
 tags : ["html", "html 5", "html tutorial", "Text Highlighting", "text highlighting in html", "html for beginner"]

@@ -4,8 +4,8 @@ categories : ["html", "html 5", "html for beginner", "html tutorial", "title tag
 date : "2020-12-25T10:09:58Z"
 description : "Title tag display page information in the browser toolbar."
 draft : false
-image : "images/Title-tag-In-HTML-5.jpg"
-images : ["images/Title-tag-In-HTML-5.jpg"]
+image : "https://c4.wallpaperflare.com/wallpaper/704/84/946/star-citizen-spaceship-pc-gaming-science-fiction-ultrawide-hd-wallpaper-preview.jpg"
+images : ["https://c4.wallpaperflare.com/wallpaper/704/84/946/star-citizen-spaceship-pc-gaming-science-fiction-ultrawide-hd-wallpaper-preview.jpg"]
 slug : "title-tag-in-html-5"
 summary : "Title tag display page information in the browser toolbar."
 tags : ["html", "html 5", "html for beginner", "html tutorial", "title tag", "html title tag"]

@@ -4,8 +4,8 @@ categories : ["Raspberry pi 4", "snapcraft", "Snap store", "Linux", "Binary"]
 date : "2022-03-26T07:50:39Z"
 description : "You can easily check the raspberry pi binary in the snap store without the command line and code."
 draft : false
-image : "images/the-snap-store.png"
-images : ["images/the-snap-store.png"]
+image : "https://e0.pxfuel.com/wallpapers/796/867/desktop-wallpaper-sci-fi-city-ultra-wide-tv-sci-fi.jpg"
+images : ["https://e0.pxfuel.com/wallpapers/796/867/desktop-wallpaper-sci-fi-city-ultra-wide-tv-sci-fi.jpg"]
 slug : "how-to-check-the-snap-store-package-available-for-raspberry-pi-4-or-not"
 summary : "You can easily check the raspberry pi binary in the snap store without the command line and code."
 tags : ["Raspberry pi 4", "snapcraft", "Snap store", "Linux", "Binary"]

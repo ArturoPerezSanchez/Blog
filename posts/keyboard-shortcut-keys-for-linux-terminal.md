@@ -4,8 +4,8 @@ categories : ["Linux", "Keyboard Shortcut", "Shortcut keys", "Linux Terminal"]
 date : "2021-01-08T08:05:57Z"
 description : "Linux Keyboard Help To Enhance Your Working Speed Inside Command Tool"
 draft : false
-image : "images/Linux-Basic-Introduction--1-.png"
-images : ["images/Linux-Basic-Introduction--1-.png"]
+image : "https://e0.pxfuel.com/wallpapers/695/51/desktop-wallpaper-sci-fi-mostly-cyberpunk-cyberpunk-ultrawide.jpg"
+images : ["https://e0.pxfuel.com/wallpapers/695/51/desktop-wallpaper-sci-fi-mostly-cyberpunk-cyberpunk-ultrawide.jpg"]
 slug : "keyboard-shortcut-keys-for-linux-terminal"
 summary : "Linux Keyboard Help To Enhance Your Working Speed Inside Command Tool"
 tags : ["Linux", "Keyboard Shortcut", "Shortcut keys", "Linux Terminal"]

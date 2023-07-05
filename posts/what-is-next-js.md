@@ -4,8 +4,8 @@ categories : ["Next.js", "Next.js Tutorial", "React.js", "React.js Framework", "
 date : "2020-11-08T13:10:48Z"
 description : "Basic Introduction About Next.js #SeriesStart"
 draft : false
-image : "images/next.js.png"
-images : ["images/next.js.png"]
+image : "https://e0.pxfuel.com/wallpapers/275/117/desktop-wallpaper-robot-armor-sci-fi-cyberpunk-ultrawide-monitor-background-purple-robot.jpg"
+images : ["https://e0.pxfuel.com/wallpapers/275/117/desktop-wallpaper-robot-armor-sci-fi-cyberpunk-ultrawide-monitor-background-purple-robot.jpg"]
 slug : "what-is-next-js"
 summary : "Basic Introduction About Next.js #SeriesStart"
 tags : ["Next.js", "Next.js Tutorial", "React.js", "React.js Framework", "javascript Framework", "Next", "Next.js Framework"]

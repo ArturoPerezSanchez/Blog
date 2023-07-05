@@ -3,7 +3,7 @@ author : "Arturo Perez"
 categories : ["npm", "npm-cli", "npm install command"]
 date : "2022-03-20T13:09:24Z"
 description : "Npm install command help to install package from npmjs.org"
-image : "images/npm-init-command-1.png"
+image : "https://e0.pxfuel.com/wallpapers/822/913/desktop-wallpaper-sci-fi-cyberpunk-city-cyberpunk-ultrawide.jpg"
 images : ["images/npm-init-command-1.png"]
 slug : "how-is-npm-install-command"
 summary : "Npm install command help to install package from npmjs.org"

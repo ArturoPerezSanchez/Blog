@@ -3,8 +3,8 @@ author : "Arturo Perez"
 categories : ["Npm"]
 date : "2022-04-18T11:00:00Z"
 description : "Npm outdate command help to find old packages in your current project."
-image : "images/npm-commands.png"
-images : ["images/npm-commands.png"]
+image : "https://4kwallpapers.com/images/wallpapers/macro-surface-3d-background-sci-fi-purple-background-3440x1440-7863.png"
+images : ["https://4kwallpapers.com/images/wallpapers/macro-surface-3d-background-sci-fi-purple-background-3440x1440-7863.png"]
 slug : "Learn-the-NPM-outdated-package-command"
 summary : "Npm outdate command help to find old packages in your current project."
 tags : ["Npm command", "NPM CLI", "Npm "]
