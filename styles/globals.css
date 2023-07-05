@@ -52,6 +52,16 @@ code {
   overflow-x: scroll;
 }
 
+.card {
+  border: 2px solid #A9A8A7;
+  
+}
+
+.card:hover {
+    background: #DC9B20;
+    border: 2px solid #DC9B20;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
