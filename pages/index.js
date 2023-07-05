@@ -56,8 +56,8 @@ export default function Home({ initialPosts }) {
       <Banner />
       <div className="container">
         <Topbar />
-        <div className="row">
-          <div className="col-lg-8">
+        <div className="posts-list">
+          <div className="w-100">
             {allPosts.slice(0, displayedPosts).map((post, index) => (
               <Post key={index} post={post} />
             ))}
