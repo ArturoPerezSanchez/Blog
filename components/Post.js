@@ -33,6 +33,5 @@ export default function Post({ post }) {
         <div style={{backgroundImage: `url(${post.frontmatter.image})`}} className="card-img-container" onClick={() => {window.location.href=`/blog/${post.slug}`}}></div>
       </div>
     </div>
-
   )
 }
