@@ -107,6 +107,7 @@ code {
   position: fixed;
   z-index: 9;
   width: 100vw;
+  top: 0px;
 }
 
 .navbar-transition {
@@ -312,7 +313,7 @@ code {
 
 .card-img-container {
   width: 100%;
-  min-height: 250px;
+  height: 100%;
   -webkit-mask-image: linear-gradient(90deg, transparent 30%, black 80%);
   mask-image: linear-gradient(90deg, transparent 30%, white 80%);
   position: absolute;
@@ -344,6 +345,7 @@ code {
   padding: 1em;
   max-width: 65%;
   justify-content: space-evenly;
+  gap: 1em;
 }
 
 @media (max-width: 600px) {
