@@ -7,7 +7,11 @@ import { slugify, ImageUrl } from '../../utils'
 import { NextSeo } from 'next-seo';
 
 export default function PostPage({ content, frontmatter }) {
-  const date = new Date(frontmatter.date)
+  const date = new Date(frontmatter.date);
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const day = date.getDate();
+  const month = months[date.getMonth()];
+  const year = date.getFullYear();
   const imageMeta= frontmatter.images.map(
       image  =>  {
        const imageUrl =  ImageUrl(image)
@@ -46,13 +50,13 @@ export default function PostPage({ content, frontmatter }) {
       <div className="container my-5">
         <div className="row">
           <div className="col-lg-10 m-auto">
-            <div className='card card-page'>
-              <a href={`/blog/${frontmatter.slug}`} > <img className="card-img-top" src={ImageUrl(frontmatter.image)} alt="..." /></a>
-
+            <div className='card-page'>
+              <a href={`/blog/${frontmatter.slug}`} > <img className="card-img-top" src={frontmatter.image} alt="..." /></a>
+              <div className="card-date">{`${day} - ${month} - ${year}`}</div>
               <h1 className='post-title mt-2 p-2'>{frontmatter.title}</h1>
               <div className='post-date m-1 p-2'>
 
-                <div><h6>{`${date.getMonth() + 1} - ${date.getDate()} - ${date.getFullYear()}`} </h6>  </div>
+                
                 <div> {
                   frontmatter.categories.map(
                     category => {
